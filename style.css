@@ -1,0 +1,51 @@
+
+html {
+    background: url(http://tiny.cc/ej5b6y) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+     
+  }
+
+body {
+    margin:0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    width: 70%;
+    height: 90%;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.hero {
+    width: 14em;
+    height:14em;
+    margin-bottom: 7%;
+}
+.hidden{
+    visibility:hidden;
+}
+.button {
+    background-color: rgba(236, 79, 40, 0.568); 
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
